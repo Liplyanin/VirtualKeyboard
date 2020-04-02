@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 75vw;
+    max-width: 760px;
+    border-radius: 10px;
+}
+
+.keyBoard{
+    margin: 15px;
+    width: 75vw;
+    max-width: 760px;
+
+    .KeyboardRows{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: grey;
+        border-radius: 5px;
+        .row{
+            display: flex;
+            .buttons{
+                text-align: center;
+                padding: 10px;
+                margin: 3px;
+                background: whitesmoke;
+                flex-grow: 1;
+                transition: all 0.3s ease;
+            }
+            :hover{
+                background-color: rgb(240, 240, 128);
+                cursor: pointer;
+            }
+            .active{
+                background-color: rgb(171, 168, 221);
+            }
+        }
+     
+    }
+}
+.language{
+    width: 200px;
+    height: 100px;
+    background: rgb(233, 232, 232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        margin: 5px;
+    }
+}
