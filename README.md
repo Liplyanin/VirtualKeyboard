@@ -1,2 +1,2 @@
-# virtualKeyboard
-https://liplyanin.github.io/virtualKeyboard/index.html
+# VirtualKeyboard
+https://liplyanin.github.io/VirtualKeyboard/index.html
